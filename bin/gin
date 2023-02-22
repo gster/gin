@@ -36,6 +36,8 @@ The available gin commands are:
  stop                      Stops the Gin server
  console                   Start a Gin console
  generate migration [name] Create a new migration (name is optional)
+ generate controller <name> Create a new controller
+ generate model <name> [--only]    Create a new model,name is plural.if --only is set,only create model file
  migrate                   Run all migrations that have not been run
  migrate rollback          Rollback one migration
 

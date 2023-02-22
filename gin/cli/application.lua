@@ -77,7 +77,7 @@ return Application
 ]]
 
 
-mysql = [[
+local mysql = [[
 local SqlDatabase = require 'gin.db.sql'
 local Gin = require 'gin.core.gin'
 
